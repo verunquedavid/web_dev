@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.clear {
+  clear: both;
+}
+
+h1 {
+  font-size: 3rem;
+  float: left;
+  color: white;
+  padding: 1rem 3rem 0rem 3rem;
+}
+
+nav {
+  background: rgb(255, 143, 102);
+}
+nav ul {
+  font-size: 2.5rem;
+  float: right;
+  list-style: none;
+}
+
+nav li {
+  float: left;
+  padding: 2rem;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: rgba(255, 255, 255, 0.74);
+}
+
+.main-section {
+  background-image: url(/img/pexels-karolina-grabowska-4033328.jpg);
+  height: 50rem;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.main-section h2 {
+  font-size: 4rem;
+  padding: 10rem;
+  color: rgb(243, 242, 241);
+}
+
+.main-section h3 {
+  font-size: 2.5rem;
+  color: aliceblue;
+  padding: 1rem;
+}
+
+.main-section button {
+  padding: 1rem 2rem;
+  background: rgb(255, 143, 110);
+  border-radius: 0.5rem;
+}
+
+.main-section button:hover {
+  background: rgb(250, 153, 8);
+}
+
+form {
+  text-align: center;
+  padding: 2rem;
+}
+form h2 {
+  padding: 3rem;
+  font-size: 5rem;
+}
+form label,
+form input,
+form textarea {
+  display: block;
+  font-size: 2rem;
+}
+
+form input,
+form textarea {
+  margin: 2rem auto;
+  width: 25%;
+}
+
+form button {
+  padding: 1rem 4rem;
+  border-radius: 0.5rem;
+  background: rgb(245, 173, 65);
+}
+
+.contact-section button:hover {
+  background: rgb(250, 153, 8);
+}
